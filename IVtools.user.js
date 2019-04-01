@@ -62,20 +62,16 @@
        winning +=1;
     }
   }
-  div.textContent += " ?? You have "+ document.querySelectorAll('.contest-item-btn-success').length + " active templates";
+  div.textContent += " 🌀 You have "+ document.querySelectorAll('.contest-item-btn-success').length + " active templates";
   div.setAttribute('class', '');
   div.setAttribute('style', 'width: 300px; overflow-y:hidden;');              
-                  
-  var p = document.createElement('p');
-  p.textContent = " ?? You are winning in "+ document.querySelectorAll('.you-are-candidate').length + "";
-  p.setAttribute('class', 'nav nav-pills nav-stacked');
-  
+
   var yWinning = document.createElement('p');
-  yWinning.textContent = " ?? You are winning in "+ winning + " domains";
+  yWinning.textContent = " 💸 You are winning in "+ winning + " domains";
   var yWon = document.createElement('p');
-  yWon.textContent = " ? You won on "+ youWon + " domains";
+  yWon.textContent = " ✅ You won on "+ youWon + " domains";
   var fDomains = document.createElement('p');
-  fDomains.textContent = " ?? Free open domains: "+ freeDomains + "/"+totals+"!";
+  fDomains.textContent = " 📢 Free open domains: "+ freeDomains + "/"+totals+"!";
   if (freeDomains > 0){
     var see = document.createElement('a');
     see.textContent= " See";
