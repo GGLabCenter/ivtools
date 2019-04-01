@@ -1,5 +1,5 @@
 # IVtools
-Custom page for the IV Telegram's Contest main screen at instantview.telegram.org/contest - to make life easier
+Custom page for the IV Telegram's Contest main screen at http://instantview.telegram.org/contest - to make life easier
 
 ## INSTALL
 To run the script you have just to do only **one** of those things:
