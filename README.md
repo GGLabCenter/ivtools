@@ -2,7 +2,13 @@
 Custom page for the IV Telegram's Contest main screen at instantview.telegram.org/contest - to make life easier
 
 ## INSTALL
-You have just to import the .zip file in Greasemonkey or copy the code manually from the .js file into a new empty userscript.
+To run the script you have just to do only **one** of those things:
+
+**1.** import the .zip file in Greasemonkey
+
+**2.** open the .js file of this project and click on "Raw", Greasemonkey will do the rest directly
+
+**3.** copy the code manually from the .js file into a new empty userscript
 
 ## RESULT
 ![Alt text](sample.png?raw=true "Title")
